@@ -25,5 +25,6 @@ RDEPENDS_${PN} = "\
     libpcap \
     nmon \
     sp-memusage \
+    wiringpi \
     ${VALGRIND} \
 "
