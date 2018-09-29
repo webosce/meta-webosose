@@ -1,7 +1,7 @@
 # Copyright (c) 2017-2018 LG Electronics, Inc.
 
 # You don't need to change this value when you're changing just a RDEPENDS_${PN} variable.
-EXTENDPRAUTO_append_rpi = "webosrpi2"
+EXTENDPRAUTO_append_rpi = "webosrpi3"
 
 MEDIA = " \
     gstreamer1.0 \
@@ -18,6 +18,7 @@ MEDIA_raspberrypi3-64 = ""
 
 AISERVICE = " \
     com.webos.service.ai \
+    com.webos.service.rpi.gpio \
 "
 # There is only rpi-32bit keyword detection library available.(https://github.com/Kitt-AI/snowboy/tree/master/lib)
 # It seems to be a library for arm-64bit(https://github.com/Kitt-AI/snowboy/tree/master/lib/aarch64-ubuntu1604),
@@ -28,4 +29,5 @@ RDEPENDS_${PN}_append_rpi = " \
     com.webos.service.audiooutput \
     ${MEDIA} \
     ${AISERVICE} \
+    wiringpi \
 "
