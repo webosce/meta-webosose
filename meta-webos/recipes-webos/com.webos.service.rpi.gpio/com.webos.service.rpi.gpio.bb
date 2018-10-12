@@ -13,7 +13,7 @@ inherit webos_system_bus
 inherit webos_public_repo
 inherit webos_enhanced_submissions
 
-WEBOS_VERSION = "1.0.0-2_adec5b1e3c9062a4642daf0e9f37bdead7433a90"
+WEBOS_VERSION = "1.0.0-3_7953fcc009c2a12eb9ae38fb7c2ad6bd735f86cb"
 PR = "r0"
 
 SRC_URI = "${WEBOSOSE_GIT_REPO_COMPLETE}"
