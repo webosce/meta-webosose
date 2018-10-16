@@ -26,4 +26,5 @@ RDEPENDS_${PN} = "\
     nmon \
     sp-memusage \
     ${VALGRIND} \
+    i2c-tools \
 "
