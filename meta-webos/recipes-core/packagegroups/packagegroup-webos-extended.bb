@@ -100,6 +100,7 @@ RDEPENDS_${PN} = " \
     settingsservice \
     sleepd \
     libsdl2 \
+    libgls2 \
     webos-connman-adapter \
     webos-fontconfig-files \
     ${VIRTUAL-RUNTIME_appinstalld} \
